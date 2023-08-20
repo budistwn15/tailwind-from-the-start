@@ -8,7 +8,15 @@ export default {
     fontFamily: {
         'sans': ['Work Sans', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+        container: {
+            center: true,
+            padding: '1rem'
+        },
+        colors:{
+            'primary': '#FF6363',
+        }
+    },
   },
   plugins: [],
 }
