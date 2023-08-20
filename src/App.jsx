@@ -5,6 +5,7 @@ import Grid from './views/Grid';
 import Flex from './views/Flex';
 import Container from './views/Container';
 import Form from './views/Form';
+import Navigation from './views/Navigation';
 
 function app() {
     return (
@@ -16,6 +17,7 @@ function app() {
                 <Route path='/flex' element={<Flex/>} />
                 <Route path="/container" element={<Container/>} />
                 <Route path="/form" element={<Form/>} />
+                <Route path="/navigation" element={<Navigation/>} />
             </Routes>
         </BrowserRouter>
     );
